@@ -1,0 +1,19 @@
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+
+<script>
+    function sendEmail() {
+        Email.send({
+            Host: "smtp.elasticemail.com",
+            Username: "mohamedalaa447447@gmail.com",
+            Password: "413B56FD7BF932654474B6F72A53E184E56D",
+            To: "admin@showmediaproduction.com",
+            From: "abdulazizmohamed30@gmail.com",
+            Subject: "welcome Email using jafgfgfgfgvascript",
+            Body: "hello nice to meet you ",
+        })
+            .then(function (message) {
+                alert("mail sent successfully")
+            });
+    }
+</script>
